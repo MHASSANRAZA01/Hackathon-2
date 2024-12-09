@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+ 
+body{
+  background-color: white;
+}
+
+
+ 
+@layer utilities {
+  @keyframes progress-bar {
+    0% {
+      height: 0%;
+      opacity: 1;
+    }
+    10% {
+      height: 15%;
+      opacity: 1;
+    }
+    25% {
+      height: 25%;
+      opacity: 1;
+    }
+    40% {
+      height: 35%;
+      opacity: 1;
+    }
+    55% {
+      height: 75%;
+      opacity: 1;
+    }
+    60% {
+      height: 100%;
+      opacity: 1;
+    }
+    100% {
+      height: 100%;
+      opacity: 0;
+    }
+  }
+
+  .animate-progress-bar {
+    animation: progress-bar 1.2s forwards;
+  }
+}
