@@ -63,7 +63,7 @@ const Header = () => {
         {/* Logo */}
         <a href="/">
           <img
-            src="vector1.png"
+            src="logonike.png"
             alt="logo"
             className="w-30"
           />
